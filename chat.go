@@ -179,7 +179,8 @@ const (
 )
 
 type ChatCompletionResponseFormat struct {
-	Type ChatCompletionResponseFormatType `json:"type,omitempty"`
+	Type   ChatCompletionResponseFormatType `json:"type,omitempty"`
+	Schema map[string]interface{}           `json:"schema,omitempty"`
 }
 
 // ChatCompletionRequest represents a request structure for chat completion API.
