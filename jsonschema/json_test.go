@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lukemarsden/go-openai/jsonschema"
+	"github.com/lukemarsden/go-openai2/jsonschema"
 )
 
 func TestDefinition_MarshalJSON(t *testing.T) {

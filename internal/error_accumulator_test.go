@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	utils "github.com/lukemarsden/go-openai/internal"
-	"github.com/lukemarsden/go-openai/internal/test"
+	utils "github.com/lukemarsden/go-openai2/internal"
+	"github.com/lukemarsden/go-openai2/internal/test"
 )
 
 func TestErrorAccumulatorBytes(t *testing.T) {
